@@ -299,7 +299,7 @@ jobs:
 
 
         ##包含 Transmission 种子下载工具。openssl 约 1.2MB，transmission 约 1.5MB 已删除 /trunk/user/httpd/common.h
-        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=y" >> .config
 
         ##包含 Transmission-Web-Control（高级 WebUI）。约 0.8MB 已删除 /trunk/user/httpd/common.h
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=n" >> .config
